@@ -74,6 +74,7 @@ ReactDOM.render(
     <Test />, 
     document.getElementById('root')); */
 
+//---APP.JS---//
 
     import React from 'react';
 
@@ -128,3 +129,13 @@ class Content extends React.Component {
       );
    }
 }
+
+//---main.js---//
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+
+ReactDOM.render(<App/>, document.getElementById('app'));
+
+setTimeout(() => {
+   ReactDOM.unmountComponentAtNode(document.getElementById('app'));}, 10000);
