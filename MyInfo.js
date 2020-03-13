@@ -39,7 +39,7 @@ class Test extends React.Component {
   
     changeState() 
     { 
-        this.setState({ hello : "Geek!" }); 
+        this.setState({ hello : "friend" }); 
     } 
   
     render() 
