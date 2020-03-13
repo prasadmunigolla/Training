@@ -24,7 +24,7 @@ class Test extends React.Component {
     constructor(props) 
     { 
         super(props); 
-        this.state = { hello : "World!" }; 
+        this.state = { hello prasad }; 
     } 
   
     componentWillMount() 
@@ -46,7 +46,7 @@ class Test extends React.Component {
     { 
         return ( 
             <div> 
-            <h1>GeeksForGeeks.org, Hello{ this.state.hello }</h1> 
+            <h1>Prasad munigolla, Hello{ this.state.hello }</h1> 
             <h2> 
              <a onClick={this.changeState.bind(this)}>Press Here!</a> 
             </h2> 
